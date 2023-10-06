@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+body   {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+.cart ion-icon {
+  vertical-align: middle;
+  font-size: 35px;
+  padding-right: 5px;
+}
+.cart a {
+  background-color: rgb(221, 176, 28);
+  color: #333;
+  cursor: pointer;
+  text-decoration: none;
+}
+.container,
+.products-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+.add-cart {
+  position: relative;
+  background-color: rgb(196, 169, 21);
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  cursor: pointer;
+  text-align: center;
+}
+.card:hover .cart1,
+.card:hover .cart2,
+.card:hover .cart3,
+.card:hover .cart4 {
+  opacity: 1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/*cart page*/
+.products-container {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.products-container ion-icon {
+  font-size: 25px;
+  color: rgb(206, 16, 16);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.product-header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgrey;
+  margin: 0 auto;
+}
+.product-title {
+  width: 45%;
+}
+
+.quantity {
+  width: 30%;
+  border-bottom: 1px solid lightslategrey;
+  display: flex;
+  align-items: center;
+}
+
+.product-header.total {
+  width: 10%;
+  border-bottom: 1px solid lightslategrey;
+  display: flex;
+  align-items: center;
+}
+.product-header,
+.product {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid lightslategrey;
+}
+.basketTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 0;
+}
+.basketTotalTitle {
+  width: 30%;
+}

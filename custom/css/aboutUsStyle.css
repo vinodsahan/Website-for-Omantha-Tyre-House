@@ -1,0 +1,231 @@
+/* Navbar */
+
+.header-content {
+  margin-top: 200px;
+  color: black;
+  text-align: center;
+}
+
+.header-content h3 {
+  font-size: 4vmin;
+  font-weight: 400;
+}
+
+.line {
+  width: 150px;
+  height: 4px;
+  background: #fc036b;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.header-content h2 {
+  font-size: 13vmin;
+  font-weight: 650;
+}
+
+.dis p {
+  margin: 30px 30px;
+  padding: 10px 10px;
+  color: black;
+  font-weight: bold;
+  font-size: 3vmin;
+}
+
+/* Land of Sri Lanka */
+section {
+  width: 80%;
+  margin: 80px auto 0px auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 5vmin;
+  color: #2f3640;
+}
+
+.title p {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 3vmin;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Land of Sri Lanka */
+
+/*drainage*/
+.drainage {
+  text-align: center;
+  font-size: 5vmin;
+  color: #2f3640;
+}
+.drainage p {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 3vmin;
+  align-items: center;
+  justify-content: center;
+}
+/*drainage*/
+
+/*soils*/
+.soils {
+  text-align: center;
+  font-size: 5vmin;
+  color: #2f3640;
+}
+.soils p {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 3vmin;
+  align-items: center;
+  justify-content: center;
+}
+/*soils*/
+
+/*climate*/
+.climate {
+  text-align: center;
+  font-size: 5vmin;
+  color: #2f3640;
+}
+.climate p {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 3vmin;
+  align-items: center;
+  justify-content: center;
+}
+/*climate*/
+
+/*plants*/
+.plants {
+  text-align: center;
+  font-size: 5vmin;
+  color: #2f3640;
+}
+.plants p {
+  margin-top: 30px;
+  font-weight: bold;
+  font-size: 3vmin;
+  align-items: center;
+  justify-content: center;
+}
+/*plants*/
+
+.explore-Srilanka {
+  width: 40%;
+  margin-top: 25%;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: whitesmoke;
+}
+
+.explore-Srilanka h2 {
+  font-size: 9vmin;
+}
+
+.explore-Srilanka line {
+  margin-bottom: 50px;
+}
+
+.ctn {
+  padding: 8px 15px;
+  margin: 20px 20px;
+  background: #fc036b;
+  border-radius: 20px;
+  color: whitesmoke;
+}
+
+.header-content p {
+  color: rgb(221, 221, 221);
+}
+
+.explore-Srilanka ctn {
+  margin-top: 40px;
+}
+.explore-Srilanka a {
+  text-decoration: none;
+}
+.explore-Srilanka a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* topButton */
+#topButton {
+  background-color: transparent;
+  color: #ff0000;
+  right: 18px;
+  bottom: 0;
+  position: fixed;
+  z-index: 300;
+  text-align: center;
+  font-size: 40px;
+  border: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+}
+.fa-circle-arrow-up {
+  border-radius: 100px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    0px 21px 14px 1px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 10px 13px -7px #000000, 0px 21px 14px 1px rgba(0, 0, 0, 0.04);
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+#topButton:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+/* topButton */
+
+/*Explore Sri Lanka*/
+
+@media screen and (max-width: 1400px) {
+  .nav-item .nav-link {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    margin: auto;
+    width: 98%;
+    top: 10px;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  .nav-item .nav-link {
+    text-align: center;
+  }
+}

@@ -1,0 +1,18 @@
+h1 {
+  font-family: arial;
+  text-align: left;
+  color: blue;
+}
+h3 {
+  font-family: Courier;
+  font-style: italic;
+  color: red;
+}
+
+p {
+  font-size: 3px;
+  color: blue;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
